@@ -5,7 +5,7 @@ Premier projet pour la WildCodeSchool
 
 Groupe : Benjamin, Loann, Coralie et Matthieu
 
-Presentation du sujet :
+Presentation du sujet : Page Web pour un bar
 
 Taches de chacun:	Header -> Benjamin
 			Section pres bar concept -> Loann
