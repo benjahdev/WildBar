@@ -21,7 +21,8 @@ Les clients ont globalement appréciés notre présentation :
 -Zones avec photos à proscrire
 -être davantage force de proposition
 -slider à rendre plus clair
-
+-Footer du responsive à travailler
+-Responsive trop semblable à version ordi, à travailler
 		
 
 		
