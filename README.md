@@ -12,6 +12,16 @@ Taches de chacun:	Header -> Benjamin
 			section menu bières et cocktail -> Coralie
 			Section Jeux -> Loann
 			Footer -> Matthieu
+
+# 3 - DAY 4 première présentation client
+
+Les clients ont globalement appréciés notre présentation : 
+
+- ils souhaitent que nous utilisions une autre appellation que "nos breuvages"
+-Zones avec photos à proscrire
+-être davantage force de proposition
+-slider à rendre plus clair
+
 		
 
 		
