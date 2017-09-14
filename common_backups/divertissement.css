@@ -1,16 +1,21 @@
 #jeux
 {
-    margin: 0 auto;
+    margin: 200px auto;
     width: 100%;
     max-width: 1200px;
     text-align:center;
+}
+
+#jeux h2
+{
+    font-size:x-large;
 }
 
 .tile
 {
     width:250px;
     height:250px;
-    margin:10px;
+    margin:15px;
     background-color:#99aeff;
     display:inline-block;
     background-size:cover;
@@ -42,7 +47,7 @@
     height:calc(100% - 60px);
 }
 
-.tile h1
+.tile h3
 {
     font-size:24px;
     font-weight:300;
