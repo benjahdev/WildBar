@@ -1,3 +1,81 @@
+/*Bloc Carousel*/
+.carousel-control {
+    opacity: 0;
+}
+.carousel-control:hover {
+    opacity: 1;
+}
+.btn-group {
+    margin: 50px auto;
+    text-align: center;
+    width: 100%;
+}
+.btn-group > button {
+    padding: 10px 40px;
+}
+.btn-group > .btn {
+    float: inherit !important;
+}
+.carousel {
+    padding-bottom: 25px
+}
+.carousel img {
+    padding-top: 20px;
+}
+.carousel h2 {
+    color: #0072b5;
+}
+ul {
+    list-style-type: none;
+}
+.ul_center {
+    height: 376px;
+    width: 575px;
+}
+.type_boisson {
+    color: orange;
+    text-align: center;
+}
+.img-center {
+    height: 385px;
+    width: 575px;
+}
+.prix_boissons {
+    padding-left: 40px;
+}
+.bières {
+    margin-top: 30px;
+}
+.happy_hour {
+    margin-top: 30px;
+}
+.liste_jus {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width: 1200px) {
+    .ul_center {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 972px) {
+    .btn-group {
+        visibility: hidden;
+    }
+    .img-center {
+        text-align: center;
+    }
+    .ul_center {
+        padding-left: 0;
+    }
+}
+@media (max-width: 380px) {
+    .type_boisson {
+        text-align: justify;
+        padding-left: 130px;
+    }
+}
+
 /* block games */
 #jeux
 {
