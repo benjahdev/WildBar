@@ -1,3 +1,4 @@
+
 /*Bloc Carousel*/
 .carousel-control {
     opacity: 0;
@@ -76,7 +77,8 @@ ul {
     }
 }
 
-/* block games */
+/* bloc games */
+
 #jeux
 {
     margin: 0 auto;
@@ -182,19 +184,24 @@ ul {
 }
 
 /* footer */
+
+footer {
+    color:whitesmoke;
+}
 #infos {
     margin: auto;
-    background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%); );
+    background: black;
 }
 .footer-title {
     font-weight: bold;
-    display: block;
+    font-size: x-large;
+    text-align: center;
     margin: 10px 0 25px 0;
     border-bottom: 1px dotted #e4e9f0;
 }
 .footer-content {
     list-style-type: none;
-    font-size: x-large;
+    font-size: large;
 }
 .footer-content i#twitter-logo:hover {
     color: #4099FF;
