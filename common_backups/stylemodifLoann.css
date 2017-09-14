@@ -74,26 +74,20 @@ ul {
     }
 }
 
-/* bloc games */
-
+/* block games */
 #jeux
 {
-    margin:180px auto;
+    margin: 0 auto;
     width: 100%;
     max-width: 1200px;
     text-align: center;
 }
 
-#jeux h2
-{
-    font-size:x-large;
-}
-
 .tile
 {
-    width: 280px;
-    height: 280px;
-    margin: 40px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
     background-color: #99aeff;
     display: inline-block;
     background-size: cover;
@@ -103,6 +97,7 @@ ul {
     box-shadow: 0 35px 77px -17px rgba(0,0,0,0.44);
     overflow: hidden;
     color: white;
+    font-family: 'Roboto';
 }
 
 .tile img
@@ -124,7 +119,7 @@ ul {
     height: calc(100% - 60px);
 }
 
-.tile h3
+.tile h1
 {
     font-size: 24px;
     font-weight: 300;
@@ -152,12 +147,11 @@ ul {
 {
     opacity: 0;
     transition: all 0.6s ease-in-out;
-    color:black;
 }
 
 .tile:hover
 {
-    background-color: #F4A443;
+    background-color: rgb(255,102,0);
     box-shadow: 0 35px 77px -17px rgba(0,0,0,0.64);
     transform: scale(1.05);
 }
@@ -186,24 +180,19 @@ ul {
 }
 
 /* footer */
-
-footer {
-    color:whitesmoke;
-}
 #infos {
     margin: auto;
-    background: black;
+    background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%); );
 }
 .footer-title {
     font-weight: bold;
-    font-size: x-large;
-    text-align: center;
+    display: block;
     margin: 10px 0 25px 0;
     border-bottom: 1px dotted #e4e9f0;
 }
 .footer-content {
     list-style-type: none;
-    font-size: large;
+    font-size: x-large;
 }
 .footer-content i#twitter-logo:hover {
     color: #4099FF;
