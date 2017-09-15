@@ -77,6 +77,10 @@ h2, h3
 }
 /*Bloc team*/
 
+.wild-title {
+    margin: 50px auto 25px auto;
+    text-align: center;
+}
 /*Bloc Carousel*/
 .carousel-control {
     opacity: 0;
