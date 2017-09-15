@@ -12,7 +12,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
 <body>
-<header>
+<header id="acceuil">
+    <div class="top-bar"></div>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -25,25 +26,30 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">Le Wild Bar</a></li>
-                    <li><a href="#boissons">Boissons</a></li>
+                    <li class="active">
+                        <a href="#acceuil"><i class="fa fa-glass orange-wild" aria-hidden="true"></i> &nbsp;&nbsp;Le Wild Bar</a>
+                    </li>
+                    <li><a href="#carte">Notre carte</a></li>
                     <li><a href="#jeux">Divertissements</a></li>
-                    <li><a href="#infos">Contact</a></li>
+                    <li><a href="#infos">Contact &amp; Infos</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="intro-img"></div>
-    <div class="intro">
-        <h1>Bienvenue au WildBar!</h1>
-        <p>Pour savourer bières et cocktails dans la joie et la convivialité, notre bar vous propose une ambiance atypique où se mélangent les différentes personalités orléanaises et d'ailleurs. Venez nous retrouver pour partager ensemble un moment Wild ! Les plus belles rencontres se font souvent autour d'un verre !</p>
+    <div class="intro-bg">
+        <div class="intro">
+            <img class="logo" src="images/logo.png" alt="Logo du Wild Bar">
+            <h1>Bienvenue au WildBar !</h1>
+            <p>Pour savourer bières et cocktails dans la joie et la convivialité, notre bar vous propose une ambiance atypique où se mélangent les différentes personalités orléanaises et d'ailleurs. Venez nous retrouver pour partager ensemble un moment Wild!</p>
+            <a href="#carte" class="btn my-btn-link bg-orange-wild active">Decouvrez notre carte</a>
+        </div>
     </div>
 </header>
 <!-- Bloc drinks -->
-<div id="boissons">
-
+<div id="carte" class="top-bar"></div>
+<div class="menu-container">
     <div class="btn-group"  aria-label="Basic example">
-        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="0" class="active">Bières</button>
+        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="0">Bières</button>
         <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="1">Cocktails</button>
         <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="2">Softs</button>
     </div>
@@ -125,11 +131,11 @@
                 </div>
             </div>
 
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <a class="left carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <a class="right carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -174,9 +180,10 @@
                         <h2 class="footer-title">Contact</h2>
                         <ul class="footer-content">
                             <li>1 Avenue du Champ de Mars, 45074 Orléans</li>
-                            <li><i class="fa fa-phone"></i>  06 18 17 69 32</li>
+                            <li><i class="fa fa-phone"></i> 06 18 17 69 32</li>
                             <li><i class="fa fa-envelope"></i> contact@wildbar.com<br></li>
-                            <li><i id="twitter-logo" class="fa fa-twitter fa-3x" aria-hidden="true"></i><i id="facebook-logo" class="fa fa-facebook fa-3x" aria-hidden="true"></i></li>
+                            <li style="font-size: 8px">&nbsp;</li>
+                            <li class="social"><i id="twitter-logo" class="fa fa-twitter fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;<i id="facebook-logo" class="fa fa-facebook fa-3x" aria-hidden="true"></i></li>
                         </ul>
                     </div>
                 </div>
@@ -194,6 +201,7 @@
             </div>
         </div>
     </div>
+    <div class="text-center text-info"><p>Site web devellopé par les élèves de la WildCodeSchool - 2017</p></div>
 </footer>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.js"></script>

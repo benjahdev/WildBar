@@ -1,28 +1,61 @@
-.navbar {
-    font-size: large;
+body {
+    background-color: whitesmoke;
 }
 
-.bg-orange-wild {
-    background-color: #F4A443;
+/* commom */
+.bg-orange-wild { background-color: #F4A443; }
+.orange-wild { color: #F4A443; }
+
+/* header */
+.top-bar { height: 50px; }
+.navbar { font-size: 16px; }
+
+.logo {
+    max-height: 100px;
 }
 
-.orange-wild {
-    color: #F4A443;
-}
-
-.intro-img {
-    background-color: #0f0f0f;
-    background-image: url('../images/intro.jpg');
-    background-position: center;
+.intro-bg {
+    background: url('../images/intro.jpg') center;
     background-size: cover;
-    height: 450px;
     text-align: center;
     overflow: hidden;
 }
 
 .intro {
     width: 60%;
-    margin: 0 auto;
+    margin: 25px auto 25px auto;
+    padding: 8px;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.58);
+    border-radius: 8px;
+    min-width: 264px;
+}
+
+.intro h1, .intro p {
+    color: white;
+}
+
+.intro p { font-size: 18px; }
+
+.my-btn-link {
+    color: white;
+    font-size: 18px;
+}
+
+.my-btn-link:hover {
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
 /*Bloc Carousel*/
@@ -33,7 +66,8 @@
     opacity: 1;
 }
 .btn-group {
-    margin: 150px auto 50px auto;
+    /*margin: 150px auto 50px auto;*/
+    margin: 50px auto;
     text-align: center;
     width: 100%;
 }
@@ -85,15 +119,24 @@ ul {
     }
 }
 @media (max-width: 972px) {
-    .btn-group {
+    /*.btn-group {
         visibility: hidden;
-    }
+    }*/
     .img-center {
         text-align: center;
     }
     .ul_center {
         padding-left: 0;
         font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .btn-group {
+        display: none;
+    }
+    .type_boisson {
+        text-align: left;
+        margin-left: 100px;
     }
 }
 @media (max-width: 380px) {
@@ -157,6 +200,7 @@ ul {
 {
     font-size: 24px;
     font-weight: 300;
+    line-height: 34px;
     background-color: rgba(24,24,24,0.8);
     width: 99.5%;
     height: 33px;
@@ -217,11 +261,17 @@ ul {
 /* footer */
 
 footer {
-    color:whitesmoke;
+    color: whitesmoke;
+    background-color: #222;
 }
+
+footer .text-info {
+    padding: 15px;
+}
+
 #infos {
     margin: auto;
-    background: black;
+    /*background: black;*/
 }
 .footer-title {
     font-weight: bold;
@@ -234,10 +284,33 @@ footer {
     list-style-type: none;
     font-size: large;
 }
-.footer-content i#twitter-logo:hover {
+
+.social {
+    width: 90%;
+    /*text-align: center;*/
+}
+
+.social > i {
+    transition: all 0.4s ease-out;
+}
+
+.social > i:hover {
+    cursor: pointer;
+}
+
+#twitter-logo {
+    font-size: 50px;
+}
+
+#facebook-logo {
+    font-size: 41px;
+}
+
+i#twitter-logo:hover {
     color: #4099FF;
 }
-.footer-content i#facebook-logo:hover {
+
+i#facebook-logo:hover {
     color: #3B5998;
 }
 
