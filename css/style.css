@@ -8,7 +8,7 @@ body {
 
 /* header */
 .top-bar { height: 50px; }
-.navbar { font-size: 16px; }
+.navbar { font-size: 18px; }
 
 .logo {
     max-height: 100px;
@@ -24,11 +24,12 @@ body {
 .intro {
     width: 60%;
     margin: 25px auto 25px auto;
-    padding: 8px;
+    padding: 30px 8px 30px 8px;
     vertical-align: middle;
     background-color: rgba(0, 0, 0, 0.58);
     border-radius: 8px;
     min-width: 264px;
+    min-height: 500px;
 }
 
 .intro h1, .intro p {
@@ -47,6 +48,10 @@ body {
 }
 
 @media (min-width: 768px) {
+    .intro {
+        width: 40%;
+    }
+
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
