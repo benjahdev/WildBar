@@ -83,7 +83,6 @@ h2, h3
 }
 .carousel-control {
     opacity: 0;
-    background-image: none;
 }
 .carousel-control:hover {
     opacity: 1;
