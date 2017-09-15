@@ -1,5 +1,17 @@
 body {
     background-color: whitesmoke;
+    font-family: 'Eczar', serif;
+}
+
+h1
+{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 200;
+}
+
+h2, h3
+{
+    font-family: 'Marko One', serif;
 }
 
 /* commom */
