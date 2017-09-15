@@ -5,9 +5,9 @@ body {
 /* commom */
 .bg-orange-wild { background-color: #F4A443; }
 .orange-wild { color: #F4A443; }
+.top-bar { height: 50px; }
 
 /* header */
-.top-bar { height: 50px; }
 .navbar { font-size: 16px; }
 
 .logo {
@@ -65,9 +65,12 @@ body {
 .carousel-control:hover {
     opacity: 1;
 }
+.notre_carte {
+    margin: 50px auto 25px auto;
+    text-align: center;
+}
 .btn-group {
-    /*margin: 150px auto 50px auto;*/
-    margin: 50px auto;
+    margin: 30px auto;
     text-align: center;
     width: 100%;
 }
@@ -95,6 +98,8 @@ ul {
 .type_boisson {
     color: #F4A443;
     text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .img-center {
     height: 385px;
@@ -102,6 +107,10 @@ ul {
 }
 .prix_boissons {
     padding-left: 40px;
+}
+.font_bold_boissons {
+    font-weight: 900;
+    font-size: 18px;
 }
 .bières {
     margin-top: 30px;
@@ -155,12 +164,6 @@ ul {
     max-width: 1200px;
     text-align: center;
 }
-
-#jeux h2
-{
-    font-size:x-large;
-}
-
 .tile
 {
     width: 280px;
