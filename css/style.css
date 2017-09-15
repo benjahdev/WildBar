@@ -81,6 +81,12 @@ h2, h3
     margin: 50px auto 25px auto;
     text-align: center;
 }
+.team-image {
+    text-align: center;
+    margin: auto;
+}
+
+
 /*Bloc Carousel*/
 .carousel-control.left, .carousel-control.right {
     background-image: none;
