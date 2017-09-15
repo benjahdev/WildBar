@@ -71,8 +71,12 @@ h2, h3
 }
 
 /*Bloc Carousel*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
 .carousel-control {
     opacity: 0;
+    background-image: none;
 }
 .carousel-control:hover {
     opacity: 1;
