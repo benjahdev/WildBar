@@ -82,6 +82,9 @@ h2, h3
     text-align: center;
 }
 /*Bloc Carousel*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
 .carousel-control {
     opacity: 0;
 }
