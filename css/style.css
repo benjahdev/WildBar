@@ -20,7 +20,8 @@ h2, h3
 .top-bar { height: 50px; }
 
 /* header */
-.navbar { font-size: 16px; }
+.top-bar { height: 50px; }
+.navbar { font-size: 18px; }
 
 .logo {
     max-height: 100px;
@@ -36,11 +37,12 @@ h2, h3
 .intro {
     width: 60%;
     margin: 25px auto 25px auto;
-    padding: 8px;
+    padding: 30px 8px 30px 8px;
     vertical-align: middle;
     background-color: rgba(0, 0, 0, 0.58);
     border-radius: 8px;
     min-width: 264px;
+    min-height: 500px;
 }
 
 .intro h1, .intro p {
@@ -59,6 +61,10 @@ h2, h3
 }
 
 @media (min-width: 768px) {
+    .intro {
+        width: 40%;
+    }
+
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -69,6 +75,7 @@ h2, h3
         text-align: center;
     }
 }
+/*Bloc team*/
 
 /*Bloc Carousel*/
 .carousel-control.left, .carousel-control.right {
