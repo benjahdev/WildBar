@@ -92,105 +92,99 @@ h2, h3
     padding-left: 0;
     list-style-type: none;
     margin-right: 30px;
-}
 
+}
 
 /*Bloc Carousel*/
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
-}
-.carousel-control {
-    opacity: 0;
-}
-.carousel-control:hover {
-    opacity: 1;
-}
-.notre_carte {
-    margin: 50px auto 25px auto;
+
+.notre-carte {
     text-align: center;
+    margin: 40px auto;
 }
-.btn-group {
+
+.bg-section {
+     margin: 0 auto;
+     background-color: #EEE;
+     width: 90%;
+}
+
+.div-autour {
+    margin: 20px auto;
+    max-width: 950px;
+}
+
+.boutons {
+    text-align: center;
     margin: 30px auto;
-    text-align: center;
-    width: 100%;
-}
-.btn-group > button {
-    padding: 10px 40px;
-    background-color: #F4A443;
-    font-size: 18px;
-    color: white;
-    float: inherit !important;
-}
-.carousel {
-    padding-bottom: 25px
-}
-.carousel img {
     padding-top: 20px;
 }
 
-.ul_center {
-    height: 376px;
-    width: 575px;
-    font-size: 17px;
-}
-.type_boisson {
-    color: #F4A443;
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.img-center {
-    height: 385px;
-    width: 575px;
-}
-.prix_boissons {
-    padding-left: 40px;
-}
-.font_bold_boissons {
-    font-weight: 900;
+.btn-group > button {
     font-size: 18px;
+    float : inherit !important;
 }
-.bières {
-    margin-top: 30px;
+
+
+.text-carousel {
+    height: 280px;
+    padding: 10px;
 }
-.happy_hour {
-    margin-top: 30px;
+
+.premiere-colonne {
+    display: inline-block;
+
+
 }
-.liste_jus {
-    margin-left: 50px;
-    margin-bottom: 50px;
+
+.seconde-colonne {
+    float: right;
+    display: inline-block;
 }
-@media (max-width: 1200px) {
-    .ul_center {
-        margin-top: 40px;
+
+.prix-softs {
+    float: right;
+}
+
+.prix-boissons {
+    float: right;
+    font-weight: 700;
+}
+
+.boisson-italic {
+    font-style: italic;
+}
+
+.boisson-gras {
+    font-weight: 700;
+}
+.happy-hours {
+    text-align: center;
+}
+hr {
+    border: 0;
+    border-top: 1px solid grey;
+}
+
+
+@media (max-width: 480px) {
+    .premiere-colonne.cocktails {
+        display: block;
+        margin-bottom: 30px;
     }
-}
-@media (max-width: 972px) {
-    /*.btn-group {
-        visibility: hidden;
-    }*/
-    .img-center {
-        text-align: center;
+    .seconde-colonne.cocktails {
+        float: none;
+        display: block;
     }
-    .ul_center {
-        padding-left: 0;
+    .text-carousel {
+        height: 430px;
+    }
+    .btn-group > button {
         font-size: 14px;
     }
-}
-@media (max-width: 768px) {
-    .btn-group {
+    .happy-hours {
         display: none;
     }
-    .type_boisson {
-        text-align: left;
-        margin-left: 100px;
-    }
-}
-@media (max-width: 380px) {
-    .type_boisson {
-        text-align: justify;
-        padding-left: 130px;
-    }
+
 }
 
 /* bloc games */
@@ -198,18 +192,16 @@ h2, h3
 #jeux {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     text-align: center;
 }
 
 .tile
 {
-    width: 280px;
-    height: 280px;
-    margin: 40px;
-    background-color: #99aeff;
+    width: 380px;
+    height: 360px;
+    margin: 20px;
     display: inline-block;
-    background-size: cover;
     position: relative;
     /*cursor: pointer;*/
     transition: all 0.4s ease-out;
@@ -239,11 +231,9 @@ h2, h3
 
 .tile h3
 {
-    font-size: 24px;
-    font-weight: 300;
     line-height: 34px;
     background-color: rgba(24,24,24,0.8);
-    width: 99.5%;
+    width: 101%;
     height: 33px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     text-align: center;
@@ -251,9 +241,6 @@ h2, h3
 
 .tile p
 {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: italic;
     scroll-padding-block-start: 15px;
     margin: 25px;
     line-height: 25px;

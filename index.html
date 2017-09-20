@@ -112,127 +112,129 @@
             </div>
         </div>
     </section>
-
-    <!-- Bloc drinks -->
-    <div id="carte" class="top-bar"></div>
-    <h2 class="notre_carte">Notre carte</h2>
-    <div class="menu-container">
-        <div class="btn-group"  aria-label="Basic example">
-            <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="0">Bières</button>
-            <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="1">Cocktails</button>
-            <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="2">Softs</button>
-        </div>
-
-        <div class='container carousel'>
-
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-
-                    <div class="item active row">
-                        <div class="col-md-6 img-center img-responsive">
-                            <img src="images/bières.jpg">
-                        </div>
-                        <div class="col-md-6 ul_center">
-                            <h3 class="type_boisson">Bières</h3><br/>
-                            <ul style>
-                                <li>2 blanches</li>
-                                <li>3 blondes</li>
-                                <li>3 ambrées</li>
-                                <li>2 brunes</li>
-                            </ul>
-                            <ul class="prix_boissons bières">
-                                <li>sm (25cl) <span class="font_bold_boissons">3.5€</span></li>
-                                <li>md (50cl) <span class="font_bold_boissons">6.5€</span></li>
-                                <li>lg (1L) <span class="font_bold_boissons">11.5€</span></li>
-                            </ul>
-                            <h4 class="prix_boissons happy_hour font_bold_boissons">Happy Hour de 18 à 20h !</h4>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-md-6 img-center img-responsive">
-                            <img src="images/cocktails.jpg">
-                        </div>
-                        <div class="col-sm-12 col-md-6 ul_center">
-                            <h3 class="type_boisson">Cocktails</h3>
-                            <ul>
-                                <li><span class="font_bold_boissons">PHP</span> : Pinault / Hydromel / Porto</li>
-                                <li><span class="font_bold_boissons">CSS</span> : Calva / Sucre / Sirop de pomme</li>
-                                <li><span class="font_bold_boissons">HTML</span> : H / Tequila / Martini / Liqueur</li>
-                                <li><span class="font_bold_boissons">W3C</span> : Mélange de 3 Whiskies / Cognac</li>
-                                <li><span class="font_bold_boissons">GIT</span> : Gin Tonic</li>
-                            </ul>
-                            <h5 class="prix_boissons"><span class="font_bold_boissons">7€</span><small> (avec alcool)</small></h5>
-                            <ul>
-                                <li><span class="font_bold_boissons">Atom</span> : Abricot / Orange / Ananas</li>
-                                <li><span class="font_bold_boissons">PHPStorm</span> : Poire / Pomme / Citron </li>
-                                <li><span class="font_bold_boissons">SublimText</span> : Soda / Banane / Fraise</li>
-                                <li><span class="font_bold_boissons">Vim</span> : Vanille / Lait / Miel</li>
-                                <li><span class="font_bold_boissons">Emacs</span> : Eau Gazeuse / Menthe / Citron vert</li>
-                            </ul>
-                            <h5 class="prix_boissons"><span class="font_bold_boissons">5€</span><small> (sans alcool)</small></h5>
-                        </div>
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-md-6 img-center img-responsive">
-                            <img src="images/fraises.jpg">
-                        </div>
-                        <div class="col-sm-12 col-md-6 ul_center">
-                            <h3 class="type_boisson">Softs</h3><br/>
-                            <ul>
-                                <li><span class="font_bold_boissons">Sodas</span> : coca, orangina, sprite, limonade</li>
-                                <li><span class="font_bold_boissons">Jus de fruits</span> : orange
-                                    <ul class="liste_jus">
-                                        <li>banane</li>
-                                        <li>poire</li>
-                                        <li>pomme</li>
-                                        <li>raisin</li>
-                                        <li>pêche</li>
-                                        <li>fraise</li>
-                                        <li>abricot</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <h4 class="prix_boissons happy_hour">Seulement <span class="font_bold_boissons">3€</span> !</h4>
-                        </div>
+<!-- Bloc drinks -->
+<div id="carte" class="top-bar"></div>
+<h2 class="notre-carte">Notre carte</h2>
+    <div class="bg-section well">
+        <div class="div-autour">
+            <div class="menu-container">
+                <div class="boutons">
+                    <div class="btn-group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic"
+                                data-slide-to="0"
+                                class="active">Bières
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic"
+                                data-slide-to="1">
+                            Cocktails
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic"
+                                data-slide-to="2">
+                            Softs
+                        </button>
                     </div>
                 </div>
 
-                <a class="left carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/fut1.jpg" alt="...">
+                            <div class="text-carousel">
+                                <h3>Nos Bières</h3>
+                                <hr>
+                                <div class="premiere-colonne">
+                                    <p>2 blanches</p>
+                                    <p>3 blondes</p>
+                                    <p>3 ambrées</p>
+                                    <p>2 brunes</p>
+                                </div>
+                                <div class="seconde-colonne">
+                                    <p>sm (25cl) <span class="boisson-gras">3.5€</span></p>
+                                    <p>md (50cl) <span class="boisson-gras">6.5€</span></p>
+                                    <p>lg (1L) <span class="boisson-gras">11.5€</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/cocktail1.jpg" alt="...">
+                            <div class="text-carousel">
+                                <h3>Nos Cocktails</h3>
+                                <hr/>
+                                <div class="premiere-colonne cocktails">
+                                    <p>Le <span class="boisson-gras">PHP</span> : <span class="boisson-italic">Pinault / Hydromel / Porto</span>
+                                    </p>
+                                    <p>Le <span class="boisson-gras">CSS</span> : <span class="boisson-italic">Calva / Sucre / Sirop de pomme</span>
+                                    </p>
+                                    <p>Le <span class="boisson-gras">HTML</span> : <span class="boisson-italic">H / Tequila / Martini / Liqueur</span>
+                                    </p>
+                                    <p>Le <span class="boisson-gras">W3C</span> : <span class="boisson-italic">Mélange de 3 Whiskies / Cognac</span>
+                                    </p>
+                                    <p>Le <span class="boisson-gras">GIT</span> : <span class="boisson-italic">Gin Tonic</span></p>
+                                    <p class="prix-boissons">7€</p>
+                                </div>
+
+                                <div class="seconde-colonne cocktails">
+                                    <p>Le <span class="boisson-gras">Atom</span> : <span class="boisson-italic">Abricot / Orange / Ananas</span>
+                                    </p>
+                                    <p>Le <span class="boisson-gras">PHPStorm</span> : <span class="boisson-italic">Poire / Pomme / Citron</span>
+                                    </p>
+                                    <p>Le <span class="boisson-gras">SublimText</span> : <span class="boisson-italic">Soda / Banane / Fraise</span>
+                                    </p>
+                                    <p>Le <span class="boisson-gras">Emacs</span> : <span class="boisson-italic">Eau Gazeuse / Menthe / Citron vert</span></p>
+                                    <p>Le <span class="boisson-gras">Vim</span> : <span class="boisson-italic">Vanille / Lait / Miel</span>
+                                    </p>
+                                    <p class="prix-boissons">5€</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/limonade.jpg" alt="...">
+                            <div class="text-carousel">
+                                <h3>Les Softs</h3>
+                                <hr/>
+
+                                <p><span class="boisson-gras">Sodas</span> : Limonade maison, Coca, Orangina, Sprite</p>
+                                <p><span class="boisson-gras">Jus de fruits</span> frais : banane, poire, pomme, raisin, pêche, fraise, abricot</p>
+                                <p class="prix-softs">Seulement <span class="boisson-gras">3€</span> !!!</p>
+
+                            </div>
+                        </div>
+                        <div class="happy-hours">
+                            <span class="boisson-gras">HAPPY HOURS de 18h à 21h !!!</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- Bloc games -->
-    <div id="jeux">
+</div>
+<!-- Bloc games -->
+<div id="jeux" class="well">
+    <div class="container-fluid">
 
         <h2 class="games_title">Pour vous détendre...</h2>
+        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.</p>
+
+    <div class="tile">
+        <img src='http://i.ebayimg.com/00/s/NTY2WDg0OQ==/z/qoIAAOSwEK9T0SBo/$_32.JPG?set_id=880000500F'/>
+        <div class="text">
+            <h3>Billards</h3>
+            <p class="animate-text">Deux billards pour vous détendre dans une ambiance toujours plus Wild !</p>
+        </div>
+    </div>
+    <div class="tile">
+        <img src='https://www.mac4ever.com/images/5173_trois-jeux-de-flipper-en-promo-sur-mac.jpg'/>
+        <div class="text">
+            <h3>Flipper</h3>
+            <p class="animate-text">Au Wild Bar, on vous offre un petit retour dans le temps.</p>
+        </div>
 
         <div class="tile">
-            <img src='https://poolandbilliards.files.wordpress.com/2010/03/14.jpg'/>
-            <div class="text">
-                <h3>Billards</h3>
-                <p class="animate-text">Deux billards pour vous détendre dans une ambiance toujours plus Wild !</p>
-            </div>
-        </div>
-        <div class="tile">
-            <img src='https://i.pinimg.com/736x/9e/04/e6/9e04e6761e103d1675b6ab34f120678b--retro-games-arcade-games.jpg'/>
-            <div class="text">
-                <h3>Flipper</h3>
-                <p class="animate-text">Au Wild Bar, on vous offre un petit retour dans le temps.</p>
-            </div>
-        </div>
-
-        <div class="tile">
-            <img src='https://cdn.thisiswhyimbroke.com/images/tournament-dart-board.jpg'/>
+            <img src='http://www.fourchette-et-bikini.fr/sites/default/files/168718452.jpg'/>
             <div class="text">
                 <h3>Fléchettes</h3>
                 <p class="animate-text">Boire avec (ou sans) modération... Passez par notre alcotest signé Wild !</p>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Titre</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style>
+        .bg-section {
+            margin: 0 auto;
+            background-color: lightgrey;
+            width: 90%;
+        }
+
+        .div-autour {
+            margin: 20px auto;
+            max-width: 950px;
+        }
+
+        .boutons {
+            text-align: center;
+            margin: 30px auto;
+            padding-top: 20px;
+        }
+
+        .btn-group > button {
+            font-size: 18px;
+            float : inherit !important;
+        }
+
+        .text-carousel {
+            height: 280px;
+            padding: 10px;
+        }
+
+        .premiere-colonne {
+            display: inline-block;
+
+        }
+
+        .seconde-colonne {
+            float: right;
+            display: inline-block;
+        }
+
+        .prix-softs {
+            float: right;
+        }
+
+        .prix-boissons {
+            float: right;
+            font-weight: 700;
+        }
+
+        .boisson-italic {
+            font-style: italic;
+        }
+
+        .boisson-gras {
+            font-weight: 700;
+        }
+        .happy-hours {
+            text-align: center;
+        }
+
+
+        @media (max-width: 480px) {
+            .premiere-colonne.cocktails {
+                display: block;
+                margin-bottom: 30px;
+            }
+            .seconde-colonne.cocktails {
+                float: none;
+                display: block;
+            }
+            .text-carousel {
+                height: 430px;
+            }
+            .btn-group > button {
+                font-size: 14px;
+            }
+            .happy-hours {
+                display: none;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="bg-section well">
+
+    <div class="div-autour">
+
+        <div class="menu-container">
+            <div class="boutons">
+                <div class="btn-group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic"
+                            data-slide-to="0"
+                            class="active">Bières
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic"
+                            data-slide-to="1">
+                        Cocktails
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic"
+                            data-slide-to="2">
+                        Softs
+                    </button>
+                </div>
+            </div>
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="fut1.jpg" alt="...">
+                        <div class="text-carousel">
+                            <h3>Nos Bières</h3>
+                            <hr/>
+                            <div class="premiere-colonne">
+                                <p>2 blanches</p>
+                                <p>3 blondes</p>
+                                <p>3 ambrées</p>
+                                <p>2 brunes</p>
+                            </div>
+                            <div class="seconde-colonne">
+                                <p>sm (25cl) <span class="boisson-gras">3.5€</span></p>
+                                <p>md (50cl) <span class="boisson-gras">6.5€</span></p>
+                                <p>lg (1L) <span class="boisson-gras">11.5€</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="cocktail1.jpg" alt="...">
+                        <div class="text-carousel">
+                            <h3>Nos Cocktails</h3>
+                            <hr/>
+                            <div class="premiere-colonne cocktails">
+                                <p>Le <span class="boisson-gras">PHP</span> : <span class="boisson-italic">Pinault / Hydromel / Porto</span>
+                                </p>
+                                <p>Le <span class="boisson-gras">CSS</span> : <span class="boisson-italic">Calva / Sucre / Sirop de pomme</span>
+                                </p>
+                                <p>Le <span class="boisson-gras">HTML</span> : <span class="boisson-italic">H / Tequila / Martini / Liqueur</span>
+                                </p>
+                                <p>Le <span class="boisson-gras">W3C</span> : <span class="boisson-italic">Mélange de 3 Whiskies / Cognac</span>
+                                </p>
+                                <p>Le <span class="boisson-gras">GIT</span> : <span class="boisson-italic">Gin Tonic</span></p>
+                                <p class="prix-boissons">7€</p>
+                            </div>
+
+                            <div class="seconde-colonne cocktails">
+                                <p>Le <span class="boisson-gras">Atom</span> : <span class="boisson-italic">Abricot / Orange / Ananas</span>
+                                </p>
+                                <p>Le <span class="boisson-gras">PHPStorm</span> : <span class="boisson-italic">Poire / Pomme / Citron</span>
+                                </p>
+                                <p>Le <span class="boisson-gras">SublimText</span> : <span class="boisson-italic">Soda / Banane / Fraise</span>
+                                </p>
+                                <p>Le <span class="boisson-gras">Emacs</span> : <span class="boisson-italic">Eau Gazeuse / Menthe / Citron vert</span></p>
+                                <p>Le <span class="boisson-gras">Vim</span> : <span class="boisson-italic">Vanille / Lait / Miel</span>
+                                </p>
+                                <p class="prix-boissons">5€</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="limonade.jpg" alt="...">
+                        <div class="text-carousel">
+                            <h3>Les Softs</h3>
+                            <hr/>
+
+                            <p><span class="boisson-gras">Sodas</span> : Limonade maison, Coca, Orangina, Sprite</p>
+                            <p><span class="boisson-gras">Jus de fruits</span> frais : banane, poire, pomme, raisin, pêche, fraise, abricot</p>
+                            <p class="prix-softs">Seulement <span class="boisson-gras">3€</span> !!!</p>
+
+                        </div>
+                    </div>
+                    <div class="happy-hours">
+                    <span class="boisson-gras">HAPPY HOURS de 18h à 21h !!!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
