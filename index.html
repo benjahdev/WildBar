@@ -17,7 +17,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!--Header-->
 <header id="acceuil">
@@ -37,7 +37,7 @@
                     <li class="active">
                         <a href="#acceuil"><i class="fa fa-glass orange-wild" aria-hidden="true"></i> &nbsp;&nbsp;Le Wild Bar</a>
                     </li>
-                    <li><a href="#wild-team">Notre team</a></li>
+                    <li><a href="#wild-team">Notre équipe</a></li>
                     <li><a href="#carte">Notre carte</a></li>
                     <li><a href="#jeux">Divertissements</a></li>
                     <li><a href="#infos">Contact &amp; Infos</a></li>
@@ -50,12 +50,12 @@
             <img class="logo" src="images/logo.png" alt="Logo du Wild Bar">
             <h1>Bienvenue au WildBar !</h1>
             <p>Pour savourer bières et cocktails dans la joie et la convivialité, notre bar vous propose une ambiance atypique où se mélangent les différentes personalités orléanaises et d'ailleurs. Venez nous retrouver pour partager ensemble un moment Wild!</p>
-            <a href="#carte" class="btn my-btn-link bg-orange-wild active" style="margin-top: 100px;">Decouvrez notre carte</a>
+            <a href="#carte" class="btn my-btn-link bg-orange-wild active" style="margin-top: 10px;">Decouvrez notre carte</a>
         </div>
     </div>
 </header>
-<div id="section-bg">
-<!--Bloc team-->
+<div class="bg-page">
+    <!--Bloc team-->
 
     <div id="wild-team" class="top-bar"></div>
     <section class="well bg-black">
@@ -90,7 +90,7 @@
                             <li><h3>Nicolas Vincent</h3></li>
                             <li><h3>Co-founder</h3></li>
                         </ul>
-                        
+
                     </div>
                     <div class="col-xs-12 col-md-3 col-lg-3">
                         <ul class="text-center fix-center">
@@ -114,132 +114,132 @@
         </div>
     </section>
 
-<!-- Bloc drinks -->
-<div id="carte" class="top-bar"></div>
-<h2 class="notre_carte">Notre carte</h2>
-<div class="menu-container">
-    <div class="btn-group"  aria-label="Basic example">
-        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="0">Bières</button>
-        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="1">Cocktails</button>
-        <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="2">Softs</button>
-    </div>
+    <!-- Bloc drinks -->
+    <div id="carte" class="top-bar"></div>
+    <h2 class="notre_carte">Notre carte</h2>
+    <div class="menu-container">
+        <div class="btn-group"  aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="0">Bières</button>
+            <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="1">Cocktails</button>
+            <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic" data-slide-to="2">Softs</button>
+        </div>
 
-    <div class='container carousel'>
+        <div class='container carousel'>
 
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
 
-                <div class="item active row">
-                    <div class="col-md-6 img-center img-responsive">
-                        <img src="images/bières.jpg">
+                    <div class="item active row">
+                        <div class="col-md-6 img-center img-responsive">
+                            <img src="images/bières.jpg">
+                        </div>
+                        <div class="col-md-6 ul_center">
+                            <h3 class="type_boisson">Bières</h3><br/>
+                            <ul style>
+                                <li>2 blanches</li>
+                                <li>3 blondes</li>
+                                <li>3 ambrées</li>
+                                <li>2 brunes</li>
+                            </ul>
+                            <ul class="prix_boissons bières">
+                                <li>sm (25cl) <span class="font_bold_boissons">3.5€</span></li>
+                                <li>md (50cl) <span class="font_bold_boissons">6.5€</span></li>
+                                <li>lg (1L) <span class="font_bold_boissons">11.5€</span></li>
+                            </ul>
+                            <h4 class="prix_boissons happy_hour font_bold_boissons">Happy Hour de 18 à 20h !</h4>
+                        </div>
                     </div>
-                    <div class="col-md-6 ul_center">
-                        <h3 class="type_boisson">Bières</h3><br/>
-                        <ul style>
-                            <li>2 blanches</li>
-                            <li>3 blondes</li>
-                            <li>3 ambrées</li>
-                            <li>2 brunes</li>
-                        </ul>
-                        <ul class="prix_boissons bières">
-                            <li>sm (25cl) <span class="font_bold_boissons">3.5€</span></li>
-                            <li>md (50cl) <span class="font_bold_boissons">6.5€</span></li>
-                            <li>lg (1L) <span class="font_bold_boissons">11.5€</span></li>
-                        </ul>
-                        <h4 class="prix_boissons happy_hour font_bold_boissons">Happy Hour de 18 à 20h !</h4>
+
+                    <div class="item row">
+                        <div class="col-md-6 img-center img-responsive">
+                            <img src="images/cocktails.jpg">
+                        </div>
+                        <div class="col-sm-12 col-md-6 ul_center">
+                            <h3 class="type_boisson">Cocktails</h3>
+                            <ul>
+                                <li><span class="font_bold_boissons">PHP</span> : Pinault / Hydromel / Porto</li>
+                                <li><span class="font_bold_boissons">CSS</span> : Calva / Sucre / Sirop de pomme</li>
+                                <li><span class="font_bold_boissons">HTML</span> : H / Tequila / Martini / Liqueur</li>
+                                <li><span class="font_bold_boissons">W3C</span> : Mélange de 3 Whiskies / Cognac</li>
+                                <li><span class="font_bold_boissons">GIT</span> : Gin Tonic</li>
+                            </ul>
+                            <h5 class="prix_boissons"><span class="font_bold_boissons">7€</span><small> (avec alcool)</small></h5>
+                            <ul>
+                                <li><span class="font_bold_boissons">Atom</span> : Abricot / Orange / Ananas</li>
+                                <li><span class="font_bold_boissons">PHPStorm</span> : Poire / Pomme / Citron </li>
+                                <li><span class="font_bold_boissons">SublimText</span> : Soda / Banane / Fraise</li>
+                                <li><span class="font_bold_boissons">Vim</span> : Vanille / Lait / Miel</li>
+                                <li><span class="font_bold_boissons">Emacs</span> : Eau Gazeuse / Menthe / Citron vert</li>
+                            </ul>
+                            <h5 class="prix_boissons"><span class="font_bold_boissons">5€</span><small> (sans alcool)</small></h5>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <div class="col-md-6 img-center img-responsive">
+                            <img src="images/fraises.jpg">
+                        </div>
+                        <div class="col-sm-12 col-md-6 ul_center">
+                            <h3 class="type_boisson">Softs</h3><br/>
+                            <ul>
+                                <li><span class="font_bold_boissons">Sodas</span> : coca, orangina, sprite, limonade</li>
+                                <li><span class="font_bold_boissons">Jus de fruits</span> : orange
+                                    <ul class="liste_jus">
+                                        <li>banane</li>
+                                        <li>poire</li>
+                                        <li>pomme</li>
+                                        <li>raisin</li>
+                                        <li>pêche</li>
+                                        <li>fraise</li>
+                                        <li>abricot</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <h4 class="prix_boissons happy_hour">Seulement <span class="font_bold_boissons">3€</span> !</h4>
+                        </div>
                     </div>
                 </div>
 
-                <div class="item row">
-                    <div class="col-md-6 img-center img-responsive">
-                        <img src="images/cocktails.jpg">
-                    </div>
-                    <div class="col-sm-12 col-md-6 ul_center">
-                        <h3 class="type_boisson">Cocktails</h3>
-                        <ul>
-                            <li><span class="font_bold_boissons">PHP</span> : Pinault / Hydromel / Porto</li>
-                            <li><span class="font_bold_boissons">CSS</span> : Calva / Sucre / Sirop de pomme</li>
-                            <li><span class="font_bold_boissons">HTML</span> : H / Tequila / Martini / Liqueur</li>
-                            <li><span class="font_bold_boissons">W3C</span> : Mélange de 3 Whiskies / Cognac</li>
-                            <li><span class="font_bold_boissons">GIT</span> : Gin Tonic</li>
-                        </ul>
-                        <h5 class="prix_boissons"><span class="font_bold_boissons">7€</span><small> (avec alcool)</small></h5>
-                        <ul>
-                            <li><span class="font_bold_boissons">Atom</span> : Abricot / Orange / Ananas</li>
-                            <li><span class="font_bold_boissons">PHPStorm</span> : Poire / Pomme / Citron </li>
-                            <li><span class="font_bold_boissons">SublimText</span> : Soda / Banane / Fraise</li>
-                            <li><span class="font_bold_boissons">Vim</span> : Vanille / Lait / Miel</li>
-                            <li><span class="font_bold_boissons">Emacs</span> : Eau Gazeuse / Menthe / Citron vert</li>
-                        </ul>
-                        <h5 class="prix_boissons"><span class="font_bold_boissons">5€</span><small> (sans alcool)</small></h5>
-                    </div>
-                </div>
-
-                <div class="item row">
-                    <div class="col-md-6 img-center img-responsive">
-                        <img src="images/fraises.jpg">
-                    </div>
-                    <div class="col-sm-12 col-md-6 ul_center">
-                        <h3 class="type_boisson">Softs</h3><br/>
-                        <ul>
-                            <li><span class="font_bold_boissons">Sodas</span> : coca, orangina, sprite, limonade</li>
-                            <li><span class="font_bold_boissons">Jus de fruits</span> : orange
-                                <ul class="liste_jus">
-                                    <li>banane</li>
-                                    <li>poire</li>
-                                    <li>pomme</li>
-                                    <li>raisin</li>
-                                    <li>pêche</li>
-                                    <li>fraise</li>
-                                    <li>abricot</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <h4 class="prix_boissons happy_hour">Seulement <span class="font_bold_boissons">3€</span> !</h4>
-                    </div>
-                </div>
+                <a class="left carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-
-            <a class="left carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control orange-wild" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
-</div>
-<!-- Bloc games -->
-<div id="jeux">
+    <!-- Bloc games -->
+    <div id="jeux">
 
-    <h2 class="games_title">Pour vous détendre...</h2>
+        <h2 class="games_title">Pour vous détendre...</h2>
 
-    <div class="tile">
-        <img src='https://poolandbilliards.files.wordpress.com/2010/03/14.jpg'/>
-        <div class="text">
-            <h3>Billards</h3>
-            <p class="animate-text">Deux billards pour vous détendre dans une ambiance toujours plus Wild !</p>
+        <div class="tile">
+            <img src='https://poolandbilliards.files.wordpress.com/2010/03/14.jpg'/>
+            <div class="text">
+                <h3>Billards</h3>
+                <p class="animate-text">Deux billards pour vous détendre dans une ambiance toujours plus Wild !</p>
+            </div>
+        </div>
+        <div class="tile">
+            <img src='https://i.pinimg.com/736x/9e/04/e6/9e04e6761e103d1675b6ab34f120678b--retro-games-arcade-games.jpg'/>
+            <div class="text">
+                <h3>Flipper</h3>
+                <p class="animate-text">Au Wild Bar, on vous offre un petit retour dans le temps.</p>
+            </div>
+        </div>
+
+        <div class="tile">
+            <img src='https://cdn.thisiswhyimbroke.com/images/tournament-dart-board.jpg'/>
+            <div class="text">
+                <h3>Fléchettes</h3>
+                <p class="animate-text">Boire avec (ou sans) modération... Passez par notre alcotest signé Wild !</p>
+            </div>
         </div>
     </div>
-    <div class="tile">
-        <img src='https://i.pinimg.com/736x/9e/04/e6/9e04e6761e103d1675b6ab34f120678b--retro-games-arcade-games.jpg'/>
-        <div class="text">
-            <h3>Flipper</h3>
-            <p class="animate-text">Au Wild Bar, on vous offre un petit retour dans le temps.</p>
-        </div>
-    </div>
-
-    <div class="tile">
-        <img src='https://cdn.thisiswhyimbroke.com/images/tournament-dart-board.jpg'/>
-        <div class="text">
-            <h3>Fléchettes</h3>
-            <p class="animate-text">Boire avec (ou sans) modération... Passez par notre alcotest signé Wild !</p>
-        </div>
-    </div>
-</div>
 </div>
 <!--Bloc footer -->
 <footer>
