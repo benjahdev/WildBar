@@ -187,17 +187,15 @@ ul {
 {
     margin:180px auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     text-align: center;
 }
 .tile
 {
-    width: 280px;
-    height: 280px;
-    margin: 40px;
-    background-color: #99aeff;
+    width: 380px;
+    height: 360px;
+    margin: 20px;
     display: inline-block;
-    background-size: cover;
     position: relative;
     cursor: pointer;
     transition: all 0.4s ease-out;
@@ -227,11 +225,9 @@ ul {
 
 .tile h3
 {
-    font-size: 24px;
-    font-weight: 300;
     line-height: 34px;
     background-color: rgba(24,24,24,0.8);
-    width: 99.5%;
+    width: 101%;
     height: 33px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
     text-align: center;
@@ -239,9 +235,6 @@ ul {
 
 .tile p
 {
-    font-size: 16px;
-    font-weight: 300;
-    font-style: italic;
     scroll-padding-block-start: 15px;
     margin: 25px;
     line-height: 25px;
