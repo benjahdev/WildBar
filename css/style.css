@@ -15,7 +15,6 @@ h2, h3
 }
 
 
-
 /* commom */
 .bg-orange-wild { background-color: #F4A443; }
 .orange-wild { color: #F4A443; }
@@ -30,7 +29,7 @@ h2, h3
 }
 
 .intro-bg {
-    background: url('../images/intro.jpg') center;
+    background: url('../images/header.png') center;
     background-size: cover;
     text-align: center;
     overflow: hidden;
@@ -41,10 +40,10 @@ h2, h3
     margin: 25px auto 25px auto;
     padding: 30px 8px 30px 8px;
     vertical-align: middle;
-    background-color: rgba(0, 0, 0, 0.58);
+    background-color: rgba(0, 0, 0, 0.88);
     border-radius: 8px;
     min-width: 264px;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 .intro h1, .intro p {
@@ -91,6 +90,8 @@ h2, h3
 }
 .fix-center {
     padding-left: 0;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 
@@ -126,9 +127,7 @@ h2, h3
 .carousel img {
     padding-top: 20px;
 }
-ul {
-    list-style-type: none;
-}
+
 .ul_center {
     height: 376px;
     width: 575px;
@@ -196,13 +195,13 @@ ul {
 
 /* bloc games */
 
-#jeux
-{
-    margin:180px auto;
+#jeux {
+    margin: 0 auto;
     width: 100%;
     max-width: 1200px;
     text-align: center;
 }
+
 .tile
 {
     width: 280px;
@@ -212,7 +211,7 @@ ul {
     display: inline-block;
     background-size: cover;
     position: relative;
-    cursor: pointer;
+    /*cursor: pointer;*/
     transition: all 0.4s ease-out;
     box-shadow: 0 35px 77px -17px rgba(0,0,0,0.44);
     overflow: hidden;
