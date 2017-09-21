@@ -2,6 +2,7 @@
     font-family: 'Permanent Marker';
     src: url('../fonts/PermanentMarker-Regular.ttf');
 }
+
 @font-face {
     font-family: 'BioRhyme';
     src: url('../fonts/BioRhyme-Regular.ttf');
@@ -14,9 +15,11 @@
 
 
 body {
-    background-color: whitesmoke;
     font-family: 'BioRhyme', serif;
+    font-size: 20px;
+    background-color: #3c3c3c;
 }
+
 h1
 {
     font-family: 'Bungee', cursive;
@@ -28,13 +31,20 @@ h2, h3
     font-family: 'Bungee', serif;
 }
 
+.section-base {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
 /* commom */
 .bg-orange-wild { background-color: #F4A443; }
 .orange-wild { color: #F4A443; }
 .top-bar { height: 50px; }
 
 /* header */
-.top-bar { height: 50px; }
 .navbar {
     font-family: 'Permanent Marker', 'sans-serif';
     font-size: 20px;
@@ -56,7 +66,7 @@ h2, h3
     background-size: cover;
     text-align: center;
     overflow: hidden;
-    height: 100vh;
+    height: calc(100vh - 50px);
 }
 
 .intro {
@@ -75,7 +85,11 @@ h2, h3
 
 .my-btn-link:hover { color: black; }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .intro > p {
+        display: none;
+    }
+
     .intro {
         width: 40%;
     }
@@ -90,10 +104,6 @@ h2, h3
         text-align: center;
     }
 }
-/*.section-padding {
-    padding: 100px 100px;
-
-}*/
 
 /*Bloc team*/
 
@@ -118,7 +128,6 @@ h2, h3
 /*Bloc Carousel*/
 
 .our-drinks {
-    text-align: center;
     margin: 40px auto;
 }
 .bg-section {
@@ -216,9 +225,15 @@ hr {
 /* bloc games */
 
 #jeux {
-    margin: 0 auto;
-    width: 90%;
-    text-align: center;
+    /*margin: 0 auto;
+    width: 90%;*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section-game {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .tile
@@ -373,6 +388,11 @@ i#twitter-logo:hover {
 
 i#facebook-logo:hover {
     color: #3B5998;
+}
+
+.credentials {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /*map config*/
