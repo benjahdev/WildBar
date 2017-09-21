@@ -2,21 +2,31 @@
     font-family: 'Permanent Marker';
     src: url('../fonts/PermanentMarker-Regular.ttf');
 }
+@font-face {
+    font-family: 'BioRhyme';
+    src: url('../fonts/BioRhyme-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bungee';
+    src: url('../fonts/Bungee-Regular.ttf');
+}
+
 
 body {
     background-color: whitesmoke;
-    font-family: 'Eczar', serif;
+    font-family: 'BioRhyme', serif;
 }
 
 h1
 {
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bungee', cursive;
     font-weight: 200;
 }
 
 h2, h3
 {
-    font-family: 'Marko One', serif;
+    font-family: 'Bungee', serif;
 }
 
 
@@ -78,8 +88,13 @@ h2, h3
         text-align: center;
     }
 }
+.section-padding {
+    padding: 100px 100px;
+
+}
 
 /*Bloc team*/
+
 
 .wild-title {
     margin: 50px auto 25px auto;
@@ -96,6 +111,7 @@ h2, h3
     margin-right: 30px;
 
 }
+
 
 /*Bloc Carousel*/
 
