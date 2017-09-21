@@ -203,7 +203,6 @@ hr {
     margin: 20px;
     display: inline-block;
     position: relative;
-    /*cursor: pointer;*/
     transition: all 0.4s ease-out;
     box-shadow: 0 35px 77px -17px rgba(0,0,0,0.44);
     overflow: hidden;
@@ -285,6 +284,7 @@ hr {
         width: 400px;
     }
 }
+
 
 /* footer */
 
