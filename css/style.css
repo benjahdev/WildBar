@@ -87,10 +87,10 @@ h2, h3
         text-align: center;
     }
 }
-.section-padding {
+/*.section-padding {
     padding: 100px 100px;
 
-}
+}*/
 
 /*Bloc team*/
 
@@ -161,6 +161,12 @@ h2, h3
 .happy-hours {
     text-align: center;
 }
+.beers-text-responsive {
+    display: none;
+}
+.softs-text-responsive {
+    display: none;
+}
 hr {
     border: 0;
     border-top: 1px solid grey;
@@ -176,7 +182,7 @@ hr {
         display: block;
     }
     .text-carousel {
-        height: 490px;
+        height: 610px;
     }
     .btn-group > button {
         font-size: 14px;
@@ -193,6 +199,14 @@ hr {
     }
     .drink-bold.fruit-juice {
         margin-bottom: 15px;
+    }
+    .beers-text-responsive {
+        display: block;
+        margin-top: 30px;
+    }
+    .softs-text-responsive {
+        display: block;
+        margin-top: 85px;
     }
 }
 
