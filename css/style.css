@@ -19,7 +19,6 @@ h2, h3
     font-family: 'Marko One', serif;
 }
 
-
 /* commom */
 .bg-orange-wild { background-color: #F4A443; }
 .orange-wild { color: #F4A443; }
@@ -41,14 +40,18 @@ h2, h3
 }
 
 .intro-bg {
-    background: url('../images/header.png') center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../images/bg-header.jpg') center;
     background-size: cover;
     text-align: center;
     overflow: hidden;
+    height: 100vh;
 }
 
 .intro {
-    width: 60%;
+    width: 80%;
     margin: 15px auto;
     padding: 30px 8px 30px 8px;
     background-color: rgba(0, 0, 0, 0.88);
