@@ -62,10 +62,10 @@
     <div id="wild-team" class="top-bar"></div>
     <section class="well section-base section-team">
         <div class="jumbotron bg-success">
+            <h2 class="text-center">Notre équipe</h2>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-4">
-                        <h2>Notre équipe</h2>
                         <p class="hidden-xs hidden-sm"> Mauris non quam accumsan, fermentum tellus at, euismod purus.
                             Nulla facilisi. Quisque
                             egestas tortor sedlorem aliquet, eu viverra purus consectetur. Duis imperdiet lacus auctor
@@ -251,47 +251,50 @@
             </div>
         </div>
     </div>
-</div>
-<!--Bloc footer -->
-<footer>
-    <div id="infos">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4">
-                    <div class="footer-single">
-                        <h2 class="footer-title">Contact</h2>
+
+    <!--Bloc footer -->
+    <footer>
+        <div id="infos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <div class="footer-single">
+                            <h2 class="footer-title">Contact</h2>
+                            <ul class="footer-content">
+                                <li>1 Avenue du Champ de Mars, 45074 Orléans</li>
+                                <li><i class="fa fa-phone"></i> 06 18 17 69 32</li>
+                                <li><i class="fa fa-envelope"></i> contact@wildbar.com<br></li>
+                                <li style="font-size: 8px">&nbsp;</li>
+                                <li class="social"><i id="twitter-logo" class="fa fa-twitter fa-3x"
+                                                      aria-hidden="true"></i>&nbsp;&nbsp;<i id="facebook-logo"
+                                                                                            class="fa fa-facebook fa-3x"
+                                                                                            aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 ">
+                        <h2 class="footer-title">Horaires</h2>
                         <ul class="footer-content">
-                            <li>1 Avenue du Champ de Mars, 45074 Orléans</li>
-                            <li><i class="fa fa-phone"></i> 06 18 17 69 32</li>
-                            <li><i class="fa fa-envelope"></i> contact@wildbar.com<br></li>
-                            <li style="font-size: 8px">&nbsp;</li>
-                            <li class="social"><i id="twitter-logo" class="fa fa-twitter fa-3x"
-                                                  aria-hidden="true"></i>&nbsp;&nbsp;<i id="facebook-logo"
-                                                                                        class="fa fa-facebook fa-3x"
-                                                                                        aria-hidden="true"></i></li>
+                            <li>Ouvert tous les jours de 18h à 2h</li>
+                            <li>Fermé le Lundi</li>
                         </ul>
                     </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 ">
-                    <h2 class="footer-title">Horaires</h2>
-                    <ul class="footer-content">
-                        <li>Ouvert tous les jours de 18h à 2h</li>
-                        <li>Fermé le Lundi</li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4">
-                    <h2 class="footer-title">Nous rejoindre</h2>
-                    <div id="map"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                        <h2 class="footer-title">Nous rejoindre</h2>
+                        <div id="map"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<div class="credentials text-center text-info"><p>Site web devellopé par les élèves de la WildCodeSchool - 2017</p></div>
+    </footer>
+    <div class="credentials text-center text-info"><p>Site web devellopé par les élèves de la WildCodeSchool - 2017</p></div>
+</div>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <!-- Google maps API -->
 <script>
+    $('body').scrollspy({target: ".navbar"});
+
     function initMap() {
         var adresseWildBar = {lat: 47.893913, lng: 1.894242};
         var map = new google.maps.Map(document.getElementById('map'), {

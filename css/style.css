@@ -17,7 +17,8 @@
 body {
     font-family: 'BioRhyme', serif;
     font-size: 20px;
-    background-color: #3c3c3c;
+    background-color: #803412;
+
 }
 
 h1
@@ -37,6 +38,10 @@ h2, h3
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+}
+
+.bg-page {
+    background: url("../images/bg-page.png") center repeat;
 }
 
 /* commom */
@@ -91,7 +96,7 @@ h2, h3
     }
 
     .intro {
-        width: 40%;
+        width: 70%;
     }
 
     .navbar .navbar-nav {
@@ -396,7 +401,7 @@ i#facebook-logo:hover {
 
 #map {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: grey;
     border-radius: 8px;
 }
