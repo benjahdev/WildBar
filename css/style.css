@@ -7,7 +7,6 @@ body {
     background-color: whitesmoke;
     font-family: 'Eczar', serif;
 }
-
 h1
 {
     font-family: 'Alfa Slab One', cursive;
@@ -105,7 +104,6 @@ h2, h3
 }
 .bg-section {
      margin: 0 auto;
-     background-color: #EEE;
      width: 90%;
 }
 .div-max-width {
