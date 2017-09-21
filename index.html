@@ -118,11 +118,12 @@
         </section>
         <!-- Bloc drinks -->
         <div id="carte" class="top-bar"></div>
-        <h2 class="notre-carte">Notre carte</h2>
+
         <div class="bg-section well">
-            <div class="div-autour">
+            <h2 class="our-drinks">Notre carte</h2>
+            <div class="div-max-width">
                 <div class="menu-container">
-                    <div class="boutons">
+                    <div class="buttonGroup">
                         <div class="btn-group" aria-label="Basic example">
                             <button type="button" class="btn btn-secondary" data-target="#carousel-example-generic"
                                     data-slide-to="0"
@@ -148,16 +149,16 @@
                                 <div class="text-carousel">
                                     <h3>Nos Bières</h3>
                                     <hr>
-                                    <div class="premiere-colonne">
-                                        <p>2 blanches</p>
-                                        <p>3 blondes</p>
-                                        <p>3 ambrées</p>
-                                        <p>2 brunes</p>
+                                    <div class="first-column">
+                                        <p class="beer">2 blanches</p>
+                                        <p class="beer">3 blondes</p>
+                                        <p class="beer">3 ambrées</p>
+                                        <p class="beer">2 brunes</p>
                                     </div>
-                                    <div class="seconde-colonne">
-                                        <p>sm (25cl) <span class="boisson-gras">3.5€</span></p>
-                                        <p>md (50cl) <span class="boisson-gras">6.5€</span></p>
-                                        <p>lg (1L) <span class="boisson-gras">11.5€</span></p>
+                                    <div class="second-column">
+                                        <p class="beer">sm (25cl) <span class="drink-bold">3.5€</span></p>
+                                        <p class="beer">md (50cl) <span class="drink-bold">6.5€</span></p>
+                                        <p class="beer">lg (1L) <span class="drink-bold">11.5€</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -167,32 +168,32 @@
                                 <div class="text-carousel">
                                     <h3>Nos Cocktails</h3>
                                     <hr/>
-                                    <div class="premiere-colonne cocktails">
-                                        <p>Le <span class="boisson-gras">PHP</span> : <span class="boisson-italic">Pinault / Hydromel / Porto</span>
+                                    <div class="first-column cocktails">
+                                        <p>Le <span class="drink-bold">PHP</span> : <span class="boisson-italic">Pinault / Hydromel / Porto</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">CSS</span> : <span class="boisson-italic">Calva / Sucre / Sirop de pomme</span>
+                                        <p>Le <span class="drink-bold">CSS</span> : <span class="boisson-italic">Calva / Sucre / Sirop de pomme</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">HTML</span> : <span class="boisson-italic">H / Tequila / Martini / Liqueur</span>
+                                        <p>Le <span class="drink-bold">HTML</span> : <span class="boisson-italic">H / Tequila / Martini / Liqueur</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">W3C</span> : <span class="boisson-italic">Mélange de 3 Whiskies / Cognac</span>
+                                        <p>Le <span class="drink-bold">W3C</span> : <span class="boisson-italic">Mélange de 3 Whiskies / Cognac</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">GIT</span> : <span
-                                                class="boisson-italic">Gin Tonic</span></p>
-                                        <p class="prix-boissons">7€</p>
+                                        <p>Le <span class="drink-bold">GIT</span> : <span
+                                                class="drink-italic">Gin Tonic</span></p>
+                                        <p class="drink-price"><span class="drink-bold">7€</span><small> avec alcool</small></p>
                                     </div>
 
-                                    <div class="seconde-colonne cocktails">
-                                        <p>Le <span class="boisson-gras">Atom</span> : <span class="boisson-italic">Abricot / Orange / Ananas</span>
+                                    <div class="second-column cocktails">
+                                        <p>Le <span class="drink-bold">Atom</span> : <span class="drink-italic">Abricot / Orange / Ananas</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">PHPStorm</span> : <span class="boisson-italic">Poire / Pomme / Citron</span>
+                                        <p>Le <span class="drink-bold">PHPStorm</span> : <span class="drink-italic">Poire / Pomme / Citron</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">SublimText</span> : <span class="boisson-italic">Soda / Banane / Fraise</span>
+                                        <p>Le <span class="drink-bold">SublimText</span> : <span class="drink-italic">Soda / Banane / Fraise</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">Emacs</span> : <span class="boisson-italic">Eau Gazeuse / Menthe / Citron vert</span>
+                                        <p>Le <span class="drink-bold">Emacs</span> : <span class="drink-italic">Eau Gazeuse / Menthe / Citron vert</span>
                                         </p>
-                                        <p>Le <span class="boisson-gras">Vim</span> : <span class="boisson-italic">Vanille / Lait / Miel</span>
+                                        <p>Le <span class="drink-bold">Vim</span> : <span class="drink-italic">Vanille / Lait / Miel</span>
                                         </p>
-                                        <p class="prix-boissons">5€</p>
+                                        <p class="drink-price"><span class="drink-bold">5€</span><small> sans alcool</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -202,16 +203,14 @@
                                 <div class="text-carousel">
                                     <h3>Les Softs</h3>
                                     <hr/>
-
-                                    <p><span class="boisson-gras">Sodas</span> : Limonade maison, Coca, Orangina, Sprite</p>
-                                    <p><span class="boisson-gras">Jus de fruits</span> frais : banane, poire, pomme, raisin,
-                                        pêche, fraise, abricot</p>
-                                    <p class="prix-softs">Seulement <span class="boisson-gras">3€</span> !!!</p>
-
+                                    <p><span class="drink-bold">Sodas</span> : Limonade maison, Coca, Orangina, Sprite</p>
+                                    <p><span class="drink-bold fruit-juice">Jus de fruits frais : </span><span class="fruit-juice">banane,</span><span class="fruit-juice"> poire,</span><span class="fruit-juice"> pomme,</span><span class="fruit-juice"> raisin,</span>
+                                        <span class="fruit-juice">pêche,</span><span class="fruit-juice"> fraise,</span><span class="fruit-juice"> abricot</span></p>
+                                    <p class="softs-price">Seulement <span class="drink-bold">3€</span> !!!</p>
                                 </div>
                             </div>
                             <div class="happy-hours">
-                                <span class="boisson-gras">HAPPY HOURS de 18h à 21h !!!</span>
+                                <span class="drink-bold">HAPPY HOURS de 18h à 21h !!!</span>
                             </div>
                         </div>
                     </div>
