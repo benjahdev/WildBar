@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('../fonts/PermanentMarker-Regular.ttf');
+}
+
 body {
     background-color: whitesmoke;
     font-family: 'Eczar', serif;
@@ -22,7 +27,14 @@ h2, h3
 
 /* header */
 .top-bar { height: 50px; }
-.navbar { font-size: 18px; }
+.navbar {
+    font-family: 'Permanent Marker', 'sans-serif';
+    font-size: 20px;
+}
+
+.nav-element {
+    /*border-left: 1px solid grey;*/
+}
 
 .logo {
     max-height: 100px;
