@@ -97,65 +97,50 @@ h2, h3
 
 /*Bloc Carousel*/
 
-.notre-carte {
+.our-drinks {
     text-align: center;
     margin: 40px auto;
 }
-
 .bg-section {
      margin: 0 auto;
      background-color: #EEE;
      width: 90%;
 }
-
-.div-autour {
+.div-max-width {
     margin: 20px auto;
     max-width: 950px;
 }
-
-.boutons {
+.buttonGroup {
     text-align: center;
     margin: 30px auto;
     padding-top: 20px;
 }
-
 .btn-group > button {
     font-size: 18px;
     float : inherit !important;
 }
-
-
 .text-carousel {
-    height: 280px;
+    height: 300px;
     padding: 10px;
 }
-
-.premiere-colonne {
+.first-column {
     display: inline-block;
-
-
 }
-
-.seconde-colonne {
+.second-column {
     float: right;
     display: inline-block;
 }
-
-.prix-softs {
-    float: right;
-}
-
-.prix-boissons {
-    float: right;
+.drink-bold {
     font-weight: 700;
 }
-
-.boisson-italic {
+.drink-italic {
     font-style: italic;
 }
-
-.boisson-gras {
-    font-weight: 700;
+.drink-price {
+    float: right;
+}
+.softs-price {
+    float: right;
 }
 .happy-hours {
     text-align: center;
@@ -165,9 +150,8 @@ hr {
     border-top: 1px solid grey;
 }
 
-
 @media (max-width: 480px) {
-    .premiere-colonne.cocktails {
+    .first-column.cocktails {
         display: block;
         margin-bottom: 30px;
     }
@@ -176,15 +160,24 @@ hr {
         display: block;
     }
     .text-carousel {
-        height: 430px;
+        height: 490px;
     }
     .btn-group > button {
         font-size: 14px;
     }
+    .beer {
+        margin-bottom: 30px;
+    }
     .happy-hours {
         display: none;
     }
-
+    .fruit-juice {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .drink-bold.fruit-juice {
+        margin-bottom: 15px;
+    }
 }
 
 /* bloc games */
