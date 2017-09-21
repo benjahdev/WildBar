@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url('../fonts/PermanentMarker-Regular.ttf');
+}
+
 body {
     background-color: whitesmoke;
     font-family: 'Eczar', serif;
@@ -22,7 +27,14 @@ h2, h3
 
 /* header */
 .top-bar { height: 50px; }
-.navbar { font-size: 18px; }
+.navbar {
+    font-family: 'Permanent Marker', 'sans-serif';
+    font-size: 20px;
+}
+
+.nav-element {
+    /*border-left: 1px solid grey;*/
+}
 
 .logo {
     max-height: 100px;
@@ -37,29 +49,19 @@ h2, h3
 
 .intro {
     width: 60%;
-    margin: 25px auto 25px auto;
+    margin: 15px auto;
     padding: 30px 8px 30px 8px;
-    vertical-align: middle;
     background-color: rgba(0, 0, 0, 0.88);
     border-radius: 8px;
     min-width: 264px;
     min-height: 400px;
 }
 
-.intro h1, .intro p {
+.intro h1, .intro p, .my-btn-link {
     color: white;
 }
 
-.intro p { font-size: 18px; }
-
-.my-btn-link {
-    color: white;
-    font-size: 18px;
-}
-
-.my-btn-link:hover {
-    color: black;
-}
+.my-btn-link:hover { color: black; }
 
 @media (min-width: 768px) {
     .intro {
@@ -97,65 +99,50 @@ h2, h3
 
 /*Bloc Carousel*/
 
-.notre-carte {
+.our-drinks {
     text-align: center;
     margin: 40px auto;
 }
-
 .bg-section {
      margin: 0 auto;
      background-color: #EEE;
      width: 90%;
 }
-
-.div-autour {
+.div-max-width {
     margin: 20px auto;
     max-width: 950px;
 }
-
-.boutons {
+.buttonGroup {
     text-align: center;
-    margin: 30px auto;
+    margin: 50px auto;
     padding-top: 20px;
 }
-
 .btn-group > button {
-    font-size: 18px;
     float : inherit !important;
+    font-size: 18px;
 }
-
-
 .text-carousel {
-    height: 280px;
+    height: 300px;
     padding: 10px;
 }
-
-.premiere-colonne {
+.first-column {
     display: inline-block;
-
-
 }
-
-.seconde-colonne {
+.second-column {
     float: right;
     display: inline-block;
 }
-
-.prix-softs {
-    float: right;
-}
-
-.prix-boissons {
-    float: right;
+.drink-bold {
     font-weight: 700;
 }
-
-.boisson-italic {
+.drink-italic {
     font-style: italic;
 }
-
-.boisson-gras {
-    font-weight: 700;
+.drink-price {
+    float: right;
+}
+.softs-price {
+    float: right;
 }
 .happy-hours {
     text-align: center;
@@ -165,26 +152,34 @@ hr {
     border-top: 1px solid grey;
 }
 
-
 @media (max-width: 480px) {
-    .premiere-colonne.cocktails {
+    .first-column.cocktails {
         display: block;
         margin-bottom: 30px;
     }
-    .seconde-colonne.cocktails {
+    .second-column.cocktails {
         float: none;
         display: block;
     }
     .text-carousel {
-        height: 430px;
+        height: 490px;
     }
     .btn-group > button {
         font-size: 14px;
     }
+    .beer {
+        margin-bottom: 30px;
+    }
     .happy-hours {
         display: none;
     }
-
+    .fruit-juice {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .drink-bold.fruit-juice {
+        margin-bottom: 15px;
+    }
 }
 
 /* bloc games */
@@ -302,16 +297,16 @@ footer .text-info {
     margin: auto;
     /*background: black;*/
 }
+
 .footer-title {
     font-weight: bold;
-    font-size: x-large;
     text-align: center;
     margin: 10px 0 25px 0;
     border-bottom: 1px dotted #e4e9f0;
 }
+
 .footer-content {
     list-style-type: none;
-    font-size: large;
 }
 
 .social {
