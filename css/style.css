@@ -17,7 +17,7 @@
 body {
     font-family: 'BioRhyme', serif;
     font-size: 20px;
-    background-color: #803412;
+    background-color: grey;
 
 }
 
@@ -32,6 +32,10 @@ h2, h3
     font-family: 'Bungee', serif;
 }
 
+.well {
+    background-color: #e3e3e3;
+}
+
 .section-base {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -41,7 +45,7 @@ h2, h3
 }
 
 .bg-page {
-    background: url("../images/bg-page.png") center repeat;
+    background: url("../images/bg-page.jpg") center repeat;
 }
 
 /* commom */
@@ -118,10 +122,10 @@ h2, h3
     text-align: center;
 }
 
-.jumbotron {
+/*.jumbotron {
     margin-bottom: 0;
     padding-left: 40px;
-}
+}*/
 .fix-center {
     padding-left: 0;
     list-style-type: none;
@@ -132,55 +136,71 @@ h2, h3
 
 /*Bloc Carousel*/
 
+.item {
+    margin: 20px auto;
+}
+
 .our-drinks {
     margin: 40px auto;
 }
 
 .div-max-width {
-    margin: 20px auto;
+    margin: 0 auto;
     max-width: 950px;
 }
+
 .buttonGroup {
     text-align: center;
-    margin: 50px auto;
+    margin: 45px auto 20px auto;
     padding-top: 20px;
 }
+
 .btn-group > button {
     float : inherit !important;
     font-size: 18px;
 }
+
 .text-carousel {
-    height: 300px;
-    padding: 10px;
+    min-height: 580px;
+    padding: 20px;
+    overflow: hidden;
 }
+
 .first-column {
     display: inline-block;
 }
+
 .second-column {
     float: right;
     display: inline-block;
 }
+
 .drink-bold {
     font-weight: 700;
 }
+
 .drink-italic {
     font-style: italic;
 }
+
 .drink-price {
     float: right;
 }
+
 .softs-price {
     float: right;
 }
+
 .happy-hours {
     text-align: center;
 }
+
+.softs-text-responsive,
 .beers-text-responsive {
     display: none;
 }
-.softs-text-responsive {
-    display: none;
-}
+
+
 hr {
     border: 0;
     border-top: 1px solid grey;
@@ -196,7 +216,7 @@ hr {
         display: block;
     }
     .text-carousel {
-        height: 610px;
+        min-height: 850px;
     }
     .btn-group > button {
         font-size: 14px;
@@ -214,13 +234,14 @@ hr {
     .drink-bold.fruit-juice {
         margin-bottom: 15px;
     }
-    .beers-text-responsive {
-        display: block;
-        margin-top: 30px;
+
+    .beers-text-responsive > p {
+        text-overflow: ellipsis;
     }
+
+    .beers-text-responsive,
     .softs-text-responsive {
         display: block;
-        margin-top: 85px;
     }
 }
 
@@ -234,8 +255,8 @@ hr {
 }
 
 .section-game {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .tile
@@ -332,6 +353,11 @@ hr {
         width: 250px;
         height: 240px;
     }
+
+    .section-game {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
@@ -339,7 +365,7 @@ hr {
 
 footer {
     color: whitesmoke;
-    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 50px 50px;
 }
 
@@ -393,8 +419,11 @@ i#facebook-logo:hover {
 }
 
 .credentials {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
+}
+
+.text-info {
+    color: whitesmoke;
 }
 
 /*map config*/
