@@ -194,13 +194,10 @@ h2, h3
 .happy-hours {
     text-align: center;
 }
-
 .softs-text-responsive,
 .beers-text-responsive {
     display: none;
 }
-
-
 hr {
     border: 0;
     border-top: 1px solid grey;
@@ -234,12 +231,10 @@ hr {
     .drink-bold.fruit-juice {
         margin-bottom: 15px;
     }
-
     .beers-text-responsive {
         display: block;
         margin-top: 200px;
     }
-
     .softs-text-responsive {
         display: block;
         margin-top: 85px;
