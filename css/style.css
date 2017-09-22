@@ -131,9 +131,10 @@ h2, h3
     padding-left: 0;
     list-style-type: none;
     margin-right: 30px;
-
 }
-
+.padding-title {
+    margin-bottom: 40px;
+}
 
 /*Bloc Carousel*/
 
@@ -220,7 +221,7 @@ hr {
         height: 850px;
     }
     .btn-group > button {
-        font-size: 14px;
+        font-size: 16px;
     }
     .beer {
         margin-bottom: 30px;
