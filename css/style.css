@@ -91,7 +91,9 @@ h2, h3
 .intro h1, .intro p, .my-btn-link {
     color: white;
 }
-
+.my-btn-link {
+    font-size: 18px;
+}
 .my-btn-link:hover { color: black; }
 
 @media (max-width: 768px) {
@@ -177,7 +179,9 @@ h2, h3
 .drink-bold {
     font-weight: 700;
 }
-
+.drink-bold.price {
+    font-size: 22px;
+}
 .drink-italic {
     font-style: italic;
 }
@@ -192,6 +196,7 @@ h2, h3
 
 .happy-hours {
     text-align: center;
+    font-size: 25px;
 }
 .softs-text-responsive,
 .beers-text-responsive {
@@ -229,6 +234,9 @@ hr {
     }
     .drink-bold.fruit-juice {
         margin-bottom: 15px;
+    }
+    .drink-bold.price {
+        font-size: 19px;
     }
     .beers-text-responsive {
         display: block;
