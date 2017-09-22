@@ -160,7 +160,7 @@ h2, h3
 }
 
 .text-carousel {
-    min-height: 580px;
+    height: 370px;
     padding: 20px;
     overflow: hidden;
 }
@@ -215,7 +215,7 @@ hr {
         display: block;
     }
     .text-carousel {
-        min-height: 850px;
+        height: 850px;
     }
     .btn-group > button {
         font-size: 14px;
@@ -234,13 +234,14 @@ hr {
         margin-bottom: 15px;
     }
 
-    .beers-text-responsive > p {
-        text-overflow: ellipsis;
+    .beers-text-responsive {
+        display: block;
+        margin-top: 200px;
     }
 
-    .beers-text-responsive,
     .softs-text-responsive {
         display: block;
+        margin-top: 85px;
     }
 }
 
