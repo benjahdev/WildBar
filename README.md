@@ -1,6 +1,8 @@
 # WildBar
 Premier projet pour la WildCodeSchool
 
+Consigne : faire le site d'un bar en "one-page". Durée: 3 semaines.
+
 # 1 - DAY 1
 
 Groupe : Benjamin, Loann, Coralie et Matthieu
@@ -15,7 +17,7 @@ Taches de chacun:	Header -> Benjamin
 
 # 3 - DAY 4 première présentation client
 
-Les clients ont globalement appréciés notre présentation : 
+Les clients ont globalement apprécié notre présentation : 
 
 - ils souhaitent que nous utilisions une autre appellation que "nos breuvages"
 -Zones avec photos à proscrire
